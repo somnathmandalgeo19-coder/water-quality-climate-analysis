@@ -1,0 +1,27 @@
+study_area:
+  bounds: 
+    - latitude_min: 23.0
+    - latitude_max: 25.0
+    - longitude_min: 85.0
+    - longitude_max: 87.0
+
+time_period:
+  start: "2025-01-01"
+  end: "2025-12-31"
+
+satellite_settings:
+  satellite_name: "Landsat 8"
+  resolution: "30m"
+
+climate_data_parameters:
+  temperature: true
+  precipitation: true
+  humidity: true
+
+processing_options:
+  cloud_masking: true
+  normalize: true
+
+output_directories:
+  images: "./output/images"
+  reports: "./output/reports"
